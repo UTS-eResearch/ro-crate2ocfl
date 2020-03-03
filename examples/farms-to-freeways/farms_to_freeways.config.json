@@ -1,0 +1,17 @@
+{
+    "domain": "farms-to-freeways",
+    "keepTypes": ["Person", "RepositoryCollection"],
+    "follow": {"Person" : {
+                    
+                    "@reverse": {
+                        "interviewee":  {
+                            "@type": "RepositoryObject",
+                            "hasFile" : {}
+                        }
+                    }
+
+    },
+    "RepositoryCollection" : {
+
+    }
+}}
